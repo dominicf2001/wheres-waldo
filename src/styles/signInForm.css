@@ -1,0 +1,35 @@
+#sign-in-form {
+    width: 25%;
+    margin: auto;
+    padding: 2%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+#sign-in-form button.close {
+    position: absolute;
+    left: 90%;
+    top: 1%;
+}
+
+#signInForm button.btn {
+    background-color: #db2828;
+}
+
+#invalid-text {
+    color: red !important;
+    margin-bottom: 5%;
+}
+
+.hidden {
+    display: none;
+}
+
+#sign-up-link {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 10%;
+}

@@ -1,0 +1,31 @@
+header {
+    background: #9DD9F5;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+header img {
+    margin-left: auto;
+    width: 25%;
+    min-width: 275px;
+}
+
+#signed-in-display {
+    margin-left: auto;
+    margin-right: 10%;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+#current-user {
+    font-weight: bold;    
+}
+
+#leaderboard-button {
+    margin-left: 10%;
+    box-shadow: black 1px 1px 1px;
+    padding: 0px 20px;
+}

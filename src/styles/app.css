@@ -1,0 +1,154 @@
+#scene {
+    width: 100%;
+    user-select: none;
+}
+
+.waldo {
+    height: 60px;
+    width: 32px;
+    outline: black 2px solid;
+    position: absolute;
+    top: 46%;
+    left: 51.5%;
+}
+
+.scene-container {
+    margin-top: 10%;
+    position: relative;
+    width: 1000px;
+}
+
+.waldo-location {
+    height: 8%;
+    width: 4%;
+    position: absolute;
+    top: 46.25%;
+    left: 51%;
+}
+
+.popup {
+    width: 120px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.target {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+}
+
+.hidden {
+    display: none;
+}
+
+.char-select-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline: 1px rgba(0, 0, 0, 0.274) solid;
+    border-radius: 5px;
+}
+
+.char-select-item:hover {
+    opacity: 90%;
+    outline: 2px rgba(0, 0, 0, 0.274) solid;
+} 
+
+.char-icon {
+    width: 30px;
+    pointer-events: none;
+}
+
+.char-name {
+    font-size: 1.3rem;
+    width: min-content;
+    user-select: none;
+    pointer-events: none;
+    margin-top: 25%;
+}
+
+#win-display {
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#win-display h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#win-display p {
+    padding-top: 25px;
+    font-size: 2rem;
+}
+
+#win-display-button-div {
+    padding-top: 25px;
+}
+
+.sign-in-win-container {
+    text-align: center;
+}
+
+#win-time {
+    color: #db2828;
+}
+
+#start-menu {
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center;
+}
+
+#start-button {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+#scene-cover {
+    opacity: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+#leaderboard {
+    min-width: 40%;
+    width: min-content;
+    margin: auto;
+    padding: 2%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
